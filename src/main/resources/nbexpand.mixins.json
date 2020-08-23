@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "net.ludocrypt.nbexpand.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"InstrumentMixin"
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

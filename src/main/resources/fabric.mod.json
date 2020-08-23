@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "nbexpand",
+	"version": "1.0.0",
+	"name": "Noteblock Expansion",
+	"description": "Adds more instruments to noteblocks",
+	"authors": [
+		"LudoCrypt"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/noteblock-expansion",
+		"sources": "https://github.com/LudoCrypt/Noteblock-Expansion",
+		"issues": "https://github.com/LudoCrypt/Noteblock-Expansion/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nbexpand/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"mm:early_risers": [
+			"net.ludocrypt.nbexpand.PreInitialize::initialize"
+		],
+		"main": [
+			"net.ludocrypt.nbexpand.NBE"
+		]
+	},
+	"mixins": [
+		"nbexpand.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.7.4",
+		"fabric": "*",
+		"minecraft": "1.16.x"
+	},
+	"suggests": {
+		"flamingo": "*"
+	}
+}

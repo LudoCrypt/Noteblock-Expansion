@@ -1,0 +1,30 @@
+{
+	"note.sitar": {
+		"sounds": [
+			{
+				"name": "nbexpand:sitar"
+			}
+		]
+	},
+	"note.music_box": {
+		"sounds": [
+			{
+				"name": "nbexpand:music_box"
+			}
+		]
+	},
+	"note.piano": {
+		"sounds": [
+			{
+				"name": "nbexpand:piano"
+			}
+		]
+	},
+	"note.vibraphone": {
+		"sounds": [
+			{
+				"name": "nbexpand:vibraphone"
+			}
+		]
+	}
+}
