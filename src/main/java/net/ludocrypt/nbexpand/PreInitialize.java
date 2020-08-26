@@ -9,8 +9,9 @@ public interface PreInitialize {
 
 	static void initialize() {
 		MappingResolver remapper = FabricLoader.getInstance().getMappingResolver();
+		String instrument = remapper.mapClassName("intermediary", "net.minecraft.class_2766");
 		String soundEvent = remapper.mapClassName("intermediary", "net.minecraft.class_3414");
-		ClassTinkerers.enumBuilder("net.minecraft.block.enums.Instrument", String.class, 'L' + soundEvent + ';')
+		ClassTinkerers.enumBuilder(instrument, String.class, 'L' + soundEvent + ';')
 				.addEnum("music_box", () -> new Object[] { "music_box", NBESounds.MUSIC_BOX })
 				.addEnum("piano", () -> new Object[] { "piano", NBESounds.PIANO })
 				.addEnum("sitar", () -> new Object[] { "sitar", NBESounds.SITAR })
