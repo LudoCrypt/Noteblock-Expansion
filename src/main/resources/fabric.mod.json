@@ -18,9 +18,6 @@
 	"entrypoints": {
 		"mm:early_risers": [
 			"net.ludocrypt.nbexpand.PreInitialize::initialize"
-		],
-		"main": [
-			"net.ludocrypt.nbexpand.NBE"
 		]
 	},
 	"mixins": [

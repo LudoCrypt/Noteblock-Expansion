@@ -15,6 +15,15 @@ public interface PreInitialize {
 				.addEnum("music_box", () -> new Object[] { "music_box", NBESounds.MUSIC_BOX })
 				.addEnum("piano", () -> new Object[] { "piano", NBESounds.PIANO })
 				.addEnum("sitar", () -> new Object[] { "sitar", NBESounds.SITAR })
-				.addEnum("vibraphone", () -> new Object[] { "vibraphone", NBESounds.VIBRAPHONE }).build();
+				.addEnum("vibraphone", () -> new Object[] { "vibraphone", NBESounds.VIBRAPHONE })
+				.addEnum("bassdrum", () -> new Object[] { "bassdrum", NBESounds.BASSDRUM })
+				.addEnum("celesta", () -> new Object[] { "celesta", NBESounds.CELESTA })
+				.addEnum("glockenspiel", () -> new Object[] { "glockenspiel", NBESounds.GLOCKENSPIEL })
+				.addEnum("harpsichord", () -> new Object[] { "harpsichord", NBESounds.HARPSICHORD })
+				.addEnum("highdrum", () -> new Object[] { "highdrum", NBESounds.HIGHDRUM })
+				.addEnum("marimba", () -> new Object[] { "marimba", NBESounds.MARIMBA })
+				.addEnum("steeldrums", () -> new Object[] { "steeldrums", NBESounds.STEELDRUMS })
+				.addEnum("timpani", () -> new Object[] { "timpani", NBESounds.TIMPANI })
+				.addEnum("woodblocks", () -> new Object[] { "woodblocks", NBESounds.WOODBLOCKS }).build();
 	}
 }

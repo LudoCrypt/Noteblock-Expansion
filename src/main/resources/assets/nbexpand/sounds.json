@@ -26,5 +26,68 @@
 				"name": "nbexpand:vibraphone"
 			}
 		]
+	},
+	"note.bassdrum": {
+		"sounds": [
+			{
+				"name": "nbexpand:bass_drum"
+			}
+		]
+	},
+	"note.celesta": {
+		"sounds": [
+			{
+				"name": "nbexpand:celesta"
+			}
+		]
+	},
+	"note.glockenspiel": {
+		"sounds": [
+			{
+				"name": "nbexpand:glockenspiel"
+			}
+		]
+	},
+	"note.harpsichord": {
+		"sounds": [
+			{
+				"name": "nbexpand:harpsichord"
+			}
+		]
+	},
+	"note.highdrum": {
+		"sounds": [
+			{
+				"name": "nbexpand:high_drum"
+			}
+		]
+	},
+	"note.marimba": {
+		"sounds": [
+			{
+				"name": "nbexpand:marimba"
+			}
+		]
+	},
+	"note.steeldrums": {
+		"sounds": [
+			{
+				"name": "nbexpand:steel_drums"
+			}
+		]
+	},
+	"note.timpani": {
+		"sounds": [
+			{
+				"name": "nbexpand:timpani"
+			}
+		]
+	},
+	"note.woodblocks": {
+		"sounds": [
+			{
+				"name": "nbexpand:woodblocks"
+			}
+		]
 	}
 }
