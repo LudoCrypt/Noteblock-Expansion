@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "nbexpand",
-	"version": "$version",
+	"version": "${version}",
 	"name": "Noteblock Expansion",
-	"description": "Adds more instruments to noteblocks",
+	"description": "Adds some more Noteblock instruments!",
 	"authors": [
 		"LudoCrypt"
 	],
@@ -12,12 +12,15 @@
 		"sources": "https://github.com/LudoCrypt/Noteblock-Expansion",
 		"issues": "https://github.com/LudoCrypt/Noteblock-Expansion/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPLv3",
 	"icon": "assets/nbexpand/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"main": [
+			"net.ludocrypt.nbexpand.NoteblockExpansion"
+		],
 		"mm:early_risers": [
-			"net.ludocrypt.nbexpand.PreInitialize::initialize"
+			"net.ludocrypt.nbexpand.NoteblockEarlyRisers"
 		]
 	},
 	"mixins": [
@@ -27,8 +30,5 @@
 		"fabricloader": ">=0.7.4",
 		"fabric": "*",
 		"minecraft": "1.16.x"
-	},
-	"suggests": {
-		"flamingo": "*"
 	}
 }

@@ -1,93 +1,77 @@
 {
-	"note.sitar": {
+	"noteblock.new.note.sitar": {
 		"sounds": [
-			{
-				"name": "nbexpand:sitar"
-			}
+			"nbexpand:noteblock/new/note/sitar"
 		]
 	},
-	"note.music_box": {
+	"noteblock.new.note.music_box": {
 		"sounds": [
-			{
-				"name": "nbexpand:music_box"
-			}
+			"nbexpand:noteblock/new/note/music_box"
 		]
 	},
-	"note.piano": {
+	"noteblock.new.note.piano": {
 		"sounds": [
-			{
-				"name": "nbexpand:piano"
-			}
+			"nbexpand:noteblock/new/note/piano"
 		]
 	},
-	"note.vibraphone": {
+	"noteblock.new.note.vibraphone": {
 		"sounds": [
-			{
-				"name": "nbexpand:vibraphone"
-			}
+			"nbexpand:noteblock/new/note/vibraphone"
 		]
 	},
-	"note.bassdrum": {
+	"noteblock.new.note.bassdrum": {
 		"sounds": [
-			{
-				"name": "nbexpand:bass_drum"
-			}
+			"nbexpand:noteblock/new/note/bass_drum"
 		]
 	},
-	"note.celesta": {
+	"noteblock.new.note.celesta": {
 		"sounds": [
-			{
-				"name": "nbexpand:celesta"
-			}
+			"nbexpand:noteblock/new/note/celesta"
 		]
 	},
-	"note.glockenspiel": {
+	"noteblock.new.note.glockenspiel": {
 		"sounds": [
-			{
-				"name": "nbexpand:glockenspiel"
-			}
+			"nbexpand:noteblock/new/note/glockenspiel"
 		]
 	},
-	"note.harpsichord": {
+	"noteblock.new.note.harpsichord": {
 		"sounds": [
-			{
-				"name": "nbexpand:harpsichord"
-			}
+			"nbexpand:noteblock/new/note/harpsichord"
 		]
 	},
-	"note.highdrum": {
+	"noteblock.new.note.highdrum": {
 		"sounds": [
-			{
-				"name": "nbexpand:high_drum"
-			}
+			"nbexpand:noteblock/new/note/high_drum"
 		]
 	},
-	"note.marimba": {
+	"noteblock.new.note.marimba": {
 		"sounds": [
-			{
-				"name": "nbexpand:marimba"
-			}
+			"nbexpand:noteblock/new/note/marimba"
 		]
 	},
-	"note.steeldrums": {
+	"noteblock.new.note.steeldrums": {
 		"sounds": [
-			{
-				"name": "nbexpand:steel_drums"
-			}
+			"nbexpand:noteblock/new/note/steel_drums"
 		]
 	},
-	"note.timpani": {
+	"noteblock.new.note.timpani": {
 		"sounds": [
-			{
-				"name": "nbexpand:timpani"
-			}
+			"nbexpand:noteblock/new/note/timpani"
 		]
 	},
-	"note.woodblocks": {
+	"noteblock.new.note.woodblocks": {
 		"sounds": [
-			{
-				"name": "nbexpand:woodblocks"
-			}
+			"nbexpand:noteblock/new/note/woodblocks"
+		]
+	},
+	"noteblock.new.note.chinese_pik": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/chinese_pik"
+		]
+	},
+	"noteblock.new.note.pluck": {
+		"sounds": [
+			"nbexpand:noteblock/new/note/pluck"
 		]
 	}
 }
